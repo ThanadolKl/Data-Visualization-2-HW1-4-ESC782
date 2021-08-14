@@ -99,9 +99,10 @@ barplot(compair_petal.Length )
 ![HW2_4](https://user-images.githubusercontent.com/67301601/129450470-046ac517-1de8-46ec-9482-f78c7de102a5.png)
 
 
-## Homework III  mtcars data
+# Homework III  mtcars data
 
-> plot ออกมาเป็น 3 กราฟ 
+> plot ออกมาเป็น 3 กราฟ
+> 1.กราฟแสดงความสัมพันธ์ระหว่างแรงม้า (gross horsepower) กับอัตราการสิ้นเปลืองน้ำมัน Miles/(US) gallon (mpg) โดยแย่งแยกตามประเภท Transmission [Auto, Manual] 
 
 ```
 ### This R script file was made by Thanadol Klainin
@@ -121,6 +122,11 @@ points(manual$hp, manual$mpg,pch = 16, col = "red")
 legend(270, 35, legend=c("automatic", "manual"),
        col=c("black", "red"), cex=1, pch=c(16,16))
 ```
+## Output 
+* Horsepower and Miles/gallonin in Automatic and Manual transmission 
+![HW3_1](https://user-images.githubusercontent.com/67301601/129450653-60bb76a0-308f-444a-afe9-2cc450f5a572.png)
+
+> จากกราฟจะเห็นว่าความสัมพันธ์ของ hp กับ mpg จะเป็นแบบ Negative คือยิ่ง hp มาก Mpg ก็จะต่ำ ซึ่งก็วิเคราะห์ได้ว่ายิ่งรถที่มีแรงม้าเยอะ อัตราการสิ้นเปลืองพลังงานเลยสูง นั้นหมายความว่า จำนวน miles ที่วิ่งได้ต่อเชื้อเพลิง 1 gallon เลยต่ำ และจากการแยกประเภทของ Transmission ก็พบว่า ในฐานข้อมูลนี้ รถที่จะประหยัดน้ำมัน (mpg สูง เพราะน้ำมัน 1 gallon วิ่งได้หลาย miles) คือรถระบบเกียร์ manual ซึ่งก็สมเหตุสมผลตามหลักวิศวกรรมยานยนต์
 
 > hP vs wt
 
