@@ -18,7 +18,7 @@ print(Mean_value)
 bp <- barplot(Mean_value, ylim = c(0,6), main = 'Iris data', ylab = "centimeters")
 text(bp, 0, round(Mean_value, 1),cex=1,pos=3) 
 ```
-## Output 
+### Output 
 > We get the mean value in each column
 
 ```
@@ -125,7 +125,7 @@ points(manual$hp, manual$mpg,pch = 16, col = "red")
 legend(270, 35, legend=c("automatic", "manual"),
        col=c("black", "red"), cex=1, pch=c(16,16))
 ```
-## Output 
+### Output 
 * Horsepower and Miles/gallonin in Automatic and Manual transmission 
 ![HW3_1](https://user-images.githubusercontent.com/67301601/129450653-60bb76a0-308f-444a-afe9-2cc450f5a572.png)
 
@@ -151,7 +151,7 @@ points(manual$hp, manual$wt, col = 'red', pch = 24)
 legend(0, 5.5, legend=c("Automatic", "Manual"),
        col=c("black", "red"), cex=1, pch=c(16,24))
 ```
-## Output 
+### Output 
 *  Horsepower and Weight (1000 lbs) in Automatic and Manual transmission
 ![Horsepower and Weight (1000 lbs) in Automatic and Manual transmission](https://user-images.githubusercontent.com/67301601/129450733-85cb2637-2c60-4b75-bb27-212fb3b7915f.png)
 
@@ -204,7 +204,7 @@ pollu.dat
 pollu.wide <- spread(pollu.dat, key = size, value=amount)
 pollu.wide
 ```
-## Output 
+### Output 
 ```
 > pollu.wide
       city large small
