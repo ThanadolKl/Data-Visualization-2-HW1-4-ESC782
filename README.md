@@ -130,7 +130,7 @@ legend(270, 35, legend=c("automatic", "manual"),
 ```
 ### Output 
 * Horsepower and Miles/gallonin in Automatic and Manual transmission 
-![HW3_1](https://user-images.githubusercontent.com/67301601/129450653-60bb76a0-308f-444a-afe9-2cc450f5a572.png)
+![HW3_1](https://user-images.githubusercontent.com/67301601/129453424-a1e1dd09-54d9-4a66-8de2-df4d384f0531.png)
 
 > จากกราฟจะเห็นว่าความสัมพันธ์ของ hp กับ mpg จะเป็นแบบ Negative คือยิ่ง hp มาก Mpg ก็จะต่ำ ซึ่งก็วิเคราะห์ได้ว่ายิ่งรถที่มีแรงม้าเยอะ อัตราการสิ้นเปลืองพลังงานเลยสูง นั้นหมายความว่า จำนวน miles ที่วิ่งได้ต่อเชื้อเพลิง 1 gallon เลยต่ำ และจากการแยกประเภทของ Transmission ก็พบว่า ในฐานข้อมูลนี้ รถที่จะประหยัดน้ำมัน (mpg สูง เพราะน้ำมัน 1 gallon วิ่งได้หลาย miles) คือรถระบบเกียร์ manual ซึ่งก็สมเหตุสมผลตามหลักวิศวกรรมยานยนต์
 
@@ -156,7 +156,7 @@ legend(0, 5.5, legend=c("Automatic", "Manual"),
 ```
 ### Output 
 *  Horsepower and Weight (1000 lbs) in Automatic and Manual transmission
-![Horsepower and Weight (1000 lbs) in Automatic and Manual transmission](https://user-images.githubusercontent.com/67301601/129450733-85cb2637-2c60-4b75-bb27-212fb3b7915f.png)
+![HW3_2](https://user-images.githubusercontent.com/67301601/129453447-49a9660b-329f-4c54-9c88-311850405d59.png)
 
 > จากกราฟจะเห็นว่าความสัมพันธ์ของ hp กับ น้ำหนักรถ จะเป็นแบบ Positive คือยิ่ง hp มาก น้ำหนักรถก็มีแนวโน้มมากตาม ซึ่งก็วิเคราะห์ได้ว่ายิ่งรถที่มีแรงม้าเยอะ การออกแบบระบบเครื่องยนต์อาจจะมีความซับซ้อนและมีอุปกรณ์เยอะ   ทำให้น้ำหนักของรถก็มากตาม และจากการแยกประเภทของ Transmission ก็พบว่า ในฐานข้อมูลนี้ รถที่มีแรงม้าเยอะและยังคงมีน้ำหนักที่ไม่มากคือ รถระบบเกียร์ Manual เพราะจากการสังเกตกราฟ ในช่วงประมาณ hp เท่ากัน รถระบบเกียร์ manual จะมี Weight ที่ต่ำกว่า
 
@@ -189,8 +189,7 @@ model_sum$adj.r.squared
 ```
 ## Output 
 * Displacement (cu.in.) and Miles/(US) gallon in Automatic and Manual transmission
-![Displacement (cu.in.) and Miles/(US) gallon in Automatic and Manual transmission](https://user-images.githubusercontent.com/67301601/129450842-947a729a-3e86-4f79-a326-26d8963b0870.png)
-
+![HW3_3](https://user-images.githubusercontent.com/67301601/129453460-501ea1cb-62a7-47cc-b535-fb9857c7c59e.png)
 > จากกราฟจะเห็นว่าความสัมพันธ์ของ  Engine Displacement หรือ ความจุเครื่องยนต์ ต่อ mpg จะเป็นแบบ Negative หมายความว่า ยิ่งเครื่องยนต์มีความจุมาก mpg ก็ยิ่งต่ำ ซึ่งก็วิเคราะห์ได้ตามหลักยานยนต์ว่า ยิ่งเครื่องยนต์มีความจุมาก ยิ่งต้องมีอัตราสิ้นเปลืองเชื้อเพลิงที่สูง ทำให้เลข miles/gallon เลยต่ำ [หากเปรียบเทียบก็เหมือน Eco car ที่เครื่องเล็ก แต่ประหยัดน้ำมัน 20 กม./ลิตร ในขณะที่รถ supercar เครื่อง V8 ตัวเลขการประหยัดน้ำมันก็ต่ำ ] และหากดูตามประเภท Transmission ก็จะบว่ากราฟของรถระบบ Manual มีความชันมากกว่า และมีรถตั้งแต่ความจุที่น้อยกว่าและมี mpg มากกว่า  แต่หากดูข้อมูลในช่วงกลาง ๆ ของกราฟ ก็ยากที่จะแบ่งแยกระหว่าง Auto กับ Manual  
 โดยในกราฟนี้ได้ใส่ Trendline ของ 2 Transmission ไว้ด้วย ซึ่งได้ค่า R2 ของ Auto = 0.6064013 และ R2ของ Manual = 0.6695094 ซึ่งค่าก็ไม่ได้ดีมาก (คิดโดยใช้ function lm() [linear regression model] ในการคิด
 
