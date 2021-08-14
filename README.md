@@ -23,7 +23,7 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 ```
 >อันนี้แถมให้ครับ เอามา plot เป็น barplot ได้ดังนี้
 
-![barplot]("D:\\M6\\782\\HW1_meanplot.png")
+![barplot]("D:\M6\782\HW1_meanplot")
 
 
 ## Homework II 
