@@ -204,6 +204,18 @@ pollu.dat
 pollu.wide <- spread(pollu.dat, key = size, value=amount)
 pollu.wide
 ```
+### Input
+```
+> pollu.dat
+      city  size amount
+1 New York large     23
+2 New York small     14
+3   London large     22
+4   London small     16
+5  Beijing large    121
+6  Beijing small     56
+```
+
 ### Output 
 ```
 > pollu.wide
