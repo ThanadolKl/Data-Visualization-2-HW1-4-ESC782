@@ -14,7 +14,7 @@ print(Mean_value)
 barplot(Mean_value, ylim = c(0,6), main = 'Iris data')
 
 ```
-# Out put 
+## Out put 
 > We get the mean value in each column
 
 ```
@@ -26,14 +26,12 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 ![Meanplot](https://user-images.githubusercontent.com/67301601/129450171-e7e6ad25-b4b5-46d0-b2f8-52425b4db45c.png)
 
 
-## Homework II 
->ให#นักเรียน plot แสงค5า sepal length ของ iris แต5ละสายพันธFุในกราฟเดียวกัน
-•ให#นักเรียน plot แสดงค5า petal length ของ iris
-แต5ละสายพันธFุในกราฟเดียวกัน
+# Homework II 
+>ให้นักเรียน plot แสดงความยาว sepal length ของ iris แต่ละสายพันธ์ุในกราฟเดียวกัน ให้นักเรียน plot แสดงความยาว petal length ของ iris แต่ละสายพันธุ์ในกราฟเดียวกัน
 
-# Solution I
+* Solution I
 
-> ผมใช้การ plot ระหว่าง sepal length and width ของแต่ละสายพันธ์ เพื่อทำการ Clustering ได้
+> ผมใช้การ Plot ระหว่าง sepal length and width ของแต่ละสายพันธ์ เพื่อทำการ Clustering ได้ 
 > This is ``` code ``` You can run the R script file name "Thanadol_HW2"
 
 ```
@@ -55,8 +53,11 @@ points(virginica$Petal.Length, virginica$Petal.Width, pch =16, col = 'blue')
 
 ```
 
-# OUT PUT 
-
+## OUT PUT 
+* Sepal length and Width in 3 species
+![Sepal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450250-73d806d7-d207-4d3c-a531-7f7ce14c5326.png)
+* Petal length and Width in 3 species
+![Petal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450298-4dbf77d9-45d8-44a0-ab69-462e30f08091.png)
 
 
 # Solution II
