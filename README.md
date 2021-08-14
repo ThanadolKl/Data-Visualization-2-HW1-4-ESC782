@@ -3,13 +3,7 @@
 title: "Class R2 HW1-4"
 author: "Thanadol Klainin"
 date: "8/13/2021"
-output:
-  word_document: default
-  pdf_document: default
-  html_document:
-    df_print: paged
----
-## Homewoek I find mean of Sepal, Petal
+# Homewoek I find mean of Sepal, Petal
 > This is ``` code ``` You can run the R script file name "Thanadol_HW1"
 
 ```
@@ -29,9 +23,8 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 ```
 >อันนี้แถมให้ครับ เอามา plot เป็น barplot ได้ดังนี้
 
-```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("D:\\M6\\782\\HW1_meanplot.png")
-```
+![barplot]("D:\\M6\\782\\HW1_meanplot.png")
+
 
 ## Homework II 
 >ให#นักเรียน plot แสงค5า sepal length ของ iris แต5ละสายพันธFุในกราฟเดียวกัน
