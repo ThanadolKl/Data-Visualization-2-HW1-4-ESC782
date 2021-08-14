@@ -57,7 +57,9 @@ points(virginica$Petal.Length, virginica$Petal.Width, pch =16, col = 'blue')
 * Sepal length and Width in 3 species
 ![Sepal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450250-73d806d7-d207-4d3c-a531-7f7ce14c5326.png)
 
+
 * Petal length and Width in 3 species
+
 ![Petal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450298-4dbf77d9-45d8-44a0-ab69-462e30f08091.png)
 
 
