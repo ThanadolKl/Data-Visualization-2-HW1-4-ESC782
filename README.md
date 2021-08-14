@@ -1,8 +1,9 @@
 # Data Visualization (2) Homeworks 1-4 
----
-title: "Class R2 HW1-4"
-author: "Thanadol Klainin"
-date: "8/13/2021"
+
+## title:  Data Visualization (2) Homeworks 1-4 
+## author: "Thanadol Klainin"
+## date: "8/14/2021"
+
 # Homewoek I find mean of Sepal, Petal
 > This is ``` code ``` You can run the R script file name "Thanadol_HW1"
 
