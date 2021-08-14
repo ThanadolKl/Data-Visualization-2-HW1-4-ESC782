@@ -3,6 +3,7 @@
 ## title:  Data Visualization (2) Homeworks 1-4 
 ## author: "Thanadol Klainin 6S No.8 "
 ## date: "8/14/2021"
+## ESC 782 DSS 
 
 # Homewoek I find mean of Sepal, Petal
 > This is ``` code ``` You can run the R script file name "Thanadol_HW1"
@@ -29,6 +30,7 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 
 ![Meanplot](https://user-images.githubusercontent.com/67301601/129450171-e7e6ad25-b4b5-46d0-b2f8-52425b4db45c.png)
 
+---
 
 # Homework II 
 >ให้นักเรียน plot แสดงความยาว sepal length ของ iris แต่ละสายพันธ์ุในกราฟเดียวกัน ให้นักเรียน plot แสดงความยาว petal length ของ iris แต่ละสายพันธุ์ในกราฟเดียวกัน
@@ -101,6 +103,7 @@ barplot(compair_petal.Length )
 
 ![HW2_4](https://user-images.githubusercontent.com/67301601/129450470-046ac517-1de8-46ec-9482-f78c7de102a5.png)
 
+---
 
 # Homework III  mtcars data
 
@@ -191,6 +194,7 @@ model_sum$adj.r.squared
 > จากกราฟจะเห็นว่าความสัมพันธ์ของ  Engine Displacement หรือ ความจุเครื่องยนต์ ต่อ mpg จะเป็นแบบ Negative หมายความว่า ยิ่งเครื่องยนต์มีความจุมาก mpg ก็ยิ่งต่ำ ซึ่งก็วิเคราะห์ได้ตามหลักยานยนต์ว่า ยิ่งเครื่องยนต์มีความจุมาก ยิ่งต้องมีอัตราสิ้นเปลืองเชื้อเพลิงที่สูง ทำให้เลข miles/gallon เลยต่ำ [หากเปรียบเทียบก็เหมือน Eco car ที่เครื่องเล็ก แต่ประหยัดน้ำมัน 20 กม./ลิตร ในขณะที่รถ supercar เครื่อง V8 ตัวเลขการประหยัดน้ำมันก็ต่ำ ] และหากดูตามประเภท Transmission ก็จะบว่ากราฟของรถระบบ Manual มีความชันมากกว่า และมีรถตั้งแต่ความจุที่น้อยกว่าและมี mpg มากกว่า  แต่หากดูข้อมูลในช่วงกลาง ๆ ของกราฟ ก็ยากที่จะแบ่งแยกระหว่าง Auto กับ Manual  
 โดยในกราฟนี้ได้ใส่ Trendline ของ 2 Transmission ไว้ด้วย ซึ่งได้ค่า R2 ของ Auto = 0.6064013 และ R2ของ Manual = 0.6695094 ซึ่งค่าก็ไม่ได้ดีมาก (คิดโดยใช้ function lm() [linear regression model] ในการคิด
 
+---
 
 # Homework IV Pollution Data
 > This is ``` code ``` You can run the R script file name "Thanadol_HW4"
@@ -224,7 +228,6 @@ pollu.wide
 2   London    22    16
 3 New York    23    14
 ```
-
 
 ## Author: "Thanadol Klainin 6S No.8"
 ## ESC 782 DSS 
