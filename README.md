@@ -14,7 +14,7 @@ print(Mean_value)
 barplot(Mean_value, ylim = c(0,6), main = 'Iris data')
 
 ```
-## Out put 
+## Output 
 > We get the mean value in each column
 
 ```
@@ -29,7 +29,7 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 # Homework II 
 >ให้นักเรียน plot แสดงความยาว sepal length ของ iris แต่ละสายพันธ์ุในกราฟเดียวกัน ให้นักเรียน plot แสดงความยาว petal length ของ iris แต่ละสายพันธุ์ในกราฟเดียวกัน
 
-* Solution I
+## Solution I
 
 > ผมใช้การ Plot ระหว่าง sepal length and width ของแต่ละสายพันธ์ เพื่อทำการ Clustering ได้ 
 > This is ``` code ``` You can run the R script file name "Thanadol_HW2"
@@ -53,7 +53,7 @@ points(virginica$Petal.Length, virginica$Petal.Width, pch =16, col = 'blue')
 
 ```
 
-## OUT PUT 
+### Output 
 * Sepal length and Width in 3 species
 ![Sepal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450250-73d806d7-d207-4d3c-a531-7f7ce14c5326.png)
 
@@ -63,7 +63,7 @@ points(virginica$Petal.Length, virginica$Petal.Width, pch =16, col = 'blue')
 ![Petal length and Width in 3 species](https://user-images.githubusercontent.com/67301601/129450298-4dbf77d9-45d8-44a0-ab69-462e30f08091.png)
 
 
-# Solution II
+## Solution II
 > ใช้ barplot เทียบค่า mean ของแต่ละสายพันธุ์
 > This is ``` code ``` You can run the R script file name "Thanadol_HW2"
 
@@ -88,7 +88,12 @@ barplot(compair_sepal.Length )
 compair_petal.Length <- c(mean_setosa[3], mean_ver[3], mean_virgin[3])
 barplot(compair_petal.Length )
 ```
-# OUT PUT 
+### Output 
+* Mean of Sepal Length in 3 species
+![Mean of Sepal Length in 3 species](https://user-images.githubusercontent.com/67301601/129450434-27581609-8fae-4e04-93d0-17bbc234d9d3.png)
+
+* Mean of Petal Length in 3 species
+![HW2_4](https://user-images.githubusercontent.com/67301601/129450470-046ac517-1de8-46ec-9482-f78c7de102a5.png)
 
 
 ## Homework III  mtcars data
