@@ -23,7 +23,7 @@ Sepal.Length  Sepal.Width Petal.Length  Petal.Width
 ```
 >อันนี้แถมให้ครับ เอามา plot เป็น barplot ได้ดังนี้
 
-![barplot]("https://drive.google.com/file/d/1IfzNPMi_rHGnCPgALGkVQ2fuCKCVuOT5/view?usp=sharing")
+![barplot](https://drive.google.com/file/d/1IfzNPMi_rHGnCPgALGkVQ2fuCKCVuOT5/view?usp=sharing)
 
 
 ## Homework II 
