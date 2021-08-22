@@ -47,7 +47,9 @@ library(tidyr)
 library(dplyr)
 dat <- iris
 dat
-
+setosa <-filter(dat, Species == "setosa") 
+versicolor<-filter(dat, Species == "versicolor")
+virginica<-filter(dat, Species == "virginica")
 plot(setosa$Sepal.Length, setosa$Sepal.Width, pch = 16, xlim = c(3,8))
 points(versicolor$Sepal.Length, versicolor$Sepal.Width, pch =16, col = 'red')
 points(virginica$Sepal.Length, virginica$Sepal.Width, pch =16, col = 'blue')
